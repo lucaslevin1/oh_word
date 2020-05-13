@@ -5,9 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 2em;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.game-card {
+  height: 5em;
+  line-height: 5em;
+  background-color: #e0e1e2;
+  text-align: center;
+  vertical-align: middle;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  width: 100%;
+  border-radius: 0.5em;
+}
+
+.game-card:hover {
+  background-color: #cacbcd;
+}
+
+.game-card--red {
+  background-color: #db2828;
+  color: white;
+}
+
+.game-card--red:hover {
+  background-color: #db2828;
+}
+
+.game-card--blue {
+  background-color: #2185d0;
+  color: white;
+}
+
+.game-card--blue:hover {
+  background-color: #2185d0;
+}
+
+.game-card--neutral {
+  background-color: #fbbd08;
+  color: white;
+}
+
+.game-card--neutral:hover {
+  background-color: #fbbd08;
+}
+
+.game-card--death {
+  background-color: black;
+  color: white;
+}
+
+.game-card--death:hover {
+  background-color: black;
 }

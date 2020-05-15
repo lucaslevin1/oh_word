@@ -64,3 +64,7 @@ code {
 .game-card--death:hover {
   background-color: black;
 }
+
+.game-card--spymaster-view {
+  height: 3em;
+}

@@ -1,14 +1,18 @@
-const numberOfCards = 25;
-const blue = 'blue';
-const red = 'red';
-const death = 'death';
+import {
+  red,
+  blue,
+  neutral,
+  death,
+  cardOrderForUrl,
+  numberOfCards,
+} from '../constants';
 
 const selectRandomCards = (cards) => {
   const idArray = [],
     cardArray = [];
 
   while (cardArray.length < numberOfCards) {
-    let newCard = cards[Math.floor(Math.random() * numberOfCards)];
+    let newCard = cards[Math.floor(Math.random() * cards.length)];
 
     if (!idArray.includes(newCard.id)) {
       cardArray.push(newCard);
@@ -38,7 +42,7 @@ const addCardAttributes = (cards) => {
       card.team = red;
       cardTeamMap.red = cardTeamMap.red - 1;
     } else if (cardTeamMap.neutral) {
-      card.team = 'neutral';
+      card.team = neutral;
       cardTeamMap.neutral = cardTeamMap.neutral - 1;
     } else {
       card.team = death;
@@ -95,4 +99,20 @@ const determineWinner = (teamTurn, blueScore, redScore, cardTeam) => {
   return null;
 };
 
-export { createCards, determineTeamTurnOnFlip, determineWinner };
+const createCardUrlExtension = (initialCards) => {
+  const mixedCardLetters = new Array(numberOfCards);
+  const cardLetters = initialCards.map((card) => card.team[0]);
+
+  cardLetters.forEach((cardLetter, index) => {
+    mixedCardLetters[cardOrderForUrl[index]] = cardLetter;
+  });
+
+  return mixedCardLetters.join('');
+};
+
+export {
+  createCards,
+  determineTeamTurnOnFlip,
+  determineWinner,
+  createCardUrlExtension,
+};

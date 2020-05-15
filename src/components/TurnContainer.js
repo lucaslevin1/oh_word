@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { Grid, Header, Button } from 'semantic-ui-react';
 import { Context as GameContext } from '../context/gameContext';
 
@@ -12,7 +12,11 @@ const TurnContainer = () => {
     return str[0].toUpperCase() + str.slice(1, str.length);
   };
 
-  const teamStr = capitalizeFirstLetter(teamTurn);
+  const [teamStr, setTeamStr] = useState(capitalizeFirstLetter(teamTurn));
+
+  useEffect(() => {
+    setTeamStr(capitalizeFirstLetter(teamTurn));
+  }, [teamTurn]);
 
   return (
     <Grid.Column width={8} textAlign='right'>

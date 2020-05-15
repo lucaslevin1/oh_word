@@ -17,7 +17,7 @@
   },
   {
     "id": 5,
-    "cardName": "Peach"
+    "cardName": "Peach emoji"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
   },
   {
     "id": 15,
-    "cardName": "George Bush"
+    "cardName": "George W. Bush"
   },
   {
     "id": 16,
@@ -69,82 +69,570 @@
   },
   {
     "id": 18,
-    "cardName": "Jesus"
-  },
-  {
-    "id": 19,
     "cardName": "Hermione Granger"
   },
   {
-    "id": 20,
+    "id": 19,
     "cardName": "Wizard sleeve"
   },
   {
-    "id": 21,
+    "id": 20,
     "cardName": "COVID-19"
   },
   {
-    "id": 22,
+    "id": 21,
     "cardName": "Pamela Anderson"
   },
   {
-    "id": 23,
+    "id": 22,
     "cardName": "Dropping the soap"
   },
   {
-    "id": 24,
+    "id": 23,
     "cardName": "Rectal thermometer"
   },
   {
-    "id": 25,
+    "id": 24,
     "cardName": "Taco Bell"
   },
   {
-    "id": 26,
+    "id": 25,
     "cardName": "Explosive diarrhea"
   },
   {
-    "id": 27,
+    "id": 26,
     "cardName": "Kim Jung-Un"
   },
   {
-    "id": 28,
+    "id": 27,
     "cardName": "Joe Exotic"
   },
   {
-    "id": 29,
+    "id": 28,
     "cardName": "Frog legs"
   },
   {
-    "id": 30,
+    "id": 29,
     "cardName": "Hallelujar"
   },
   {
-    "id": 31,
+    "id": 30,
     "cardName": "A crack pipe"
   },
   {
-    "id": 32,
+    "id": 31,
     "cardName": "Bong resin"
   },
   {
-    "id": 33,
+    "id": 32,
     "cardName": "Colt 45"
   },
   {
-    "id": 34,
+    "id": 33,
     "cardName": "Man boobs"
   },
   {
-    "id": 35,
+    "id": 34,
     "cardName": "Exploding Samsungs"
   },
   {
-    "id": 36,
+    "id": 35,
     "cardName": "Neverland Ranch"
   },
   {
-    "id": 37,
+    "id": 36,
     "cardName": "Viagra"
+  },
+  {
+    "id": 37,
+    "cardName": "Missionary position"
+  },
+  {
+    "id": 38,
+    "cardName": "Nic Cage"
+  },
+  {
+    "id": 39,
+    "cardName": "Dust bunnies"
+  },
+  {
+    "id": 40,
+    "cardName": "Stripper poles"
+  },
+  {
+    "id": 41,
+    "cardName": "Banana hammock"
+  },
+  {
+    "id": 42,
+    "cardName": "Jehovah's witnesses"
+  },
+  {
+    "id": 43,
+    "cardName": "Florida Man"
+  },
+  {
+    "id": 44,
+    "cardName": "Ronald McDonald"
+  },
+  {
+    "id": 45,
+    "cardName": "Nickelback"
+  },
+  {
+    "id": 46,
+    "cardName": "Pubic hair"
+  },
+  {
+    "id": 47,
+    "cardName": "A good old handjob"
+  },
+  {
+    "id": 48,
+    "cardName": "Pooping your pants"
+  },
+  {
+    "id": 49,
+    "cardName": "Internet porn"
+  },
+  {
+    "id": 50,
+    "cardName": "Garbage trucks"
+  },
+  {
+    "id": 51,
+    "cardName": "Sleeping bags"
+  },
+  {
+    "id": 52,
+    "cardName": "Facebook"
+  },
+  {
+    "id": 53,
+    "cardName": "Bitcoin"
+  },
+  {
+    "id": 54,
+    "cardName": "Habenero peppers"
+  },
+  {
+    "id": 55,
+    "cardName": "Teddy bears"
+  },
+  {
+    "id": 56,
+    "cardName": "Weed gummies"
+  },
+  {
+    "id": 57,
+    "cardName": "Pimp cane"
+  },
+  {
+    "id": 58,
+    "cardName": "Bolo tie"
+  },
+  {
+    "id": 59,
+    "cardName": "Assless chaps"
+  },
+  {
+    "id": 60,
+    "cardName": "A dirty diaper"
+  },
+  {
+    "id": 61,
+    "cardName": "Jean shorts"
+  },
+  {
+    "id": 62,
+    "cardName": "Fingernails"
+  },
+  {
+    "id": 63,
+    "cardName": "Wal Mart"
+  },
+  {
+    "id": 64,
+    "cardName": "Pepper spray"
+  },
+  {
+    "id": 65,
+    "cardName": "Dynamite"
+  },
+  {
+    "id": 66,
+    "cardName": "Pikachu"
+  },
+  {
+    "id": 67,
+    "cardName": "Bad gas"
+  },
+  {
+    "id": 68,
+    "cardName": "A bleached asshole"
+  },
+  {
+    "id": 69,
+    "cardName": "Bohemian Rhapsody"
+  },
+  {
+    "id": 70,
+    "cardName": "Parking lots"
+  },
+  {
+    "id": 71,
+    "cardName": "A sketchy white van"
+  },
+  {
+    "id": 72,
+    "cardName": "Bugs Bunny"
+  },
+  {
+    "id": 73,
+    "cardName": "Sex Ed Class"
+  },
+  {
+    "id": 74,
+    "cardName": "The Kardashian Sisters"
+  },
+  {
+    "id": 75,
+    "cardName": "Kanye's ego"
+  },
+  {
+    "id": 76,
+    "cardName": "When you get so stoned you might die"
+  },
+  {
+    "id": 77,
+    "cardName": "A cum rag"
+  },
+  {
+    "id": 78,
+    "cardName": "Warm apple pie"
+  },
+  {
+    "id": 79,
+    "cardName": "Forrest Gump"
+  },
+  {
+    "id": 80,
+    "cardName": "My ex"
+  },
+  {
+    "id": 81,
+    "cardName": "Your mom"
+  },
+  {
+    "id": 82,
+    "cardName": "A hot daddy"
+  },
+  {
+    "id": 83,
+    "cardName": "The Great Gatsby"
+  },
+  {
+    "id": 84,
+    "cardName": "Normandy on D-Day"
+  },
+  {
+    "id": 85,
+    "cardName": "Swine Flu"
+  },
+  {
+    "id": 86,
+    "cardName": "Undercooked meat"
+  },
+  {
+    "id": 87,
+    "cardName": "Freestyle rappers"
+  },
+  {
+    "id": 88,
+    "cardName": "YouTube stars"
+  },
+  {
+    "id": 89,
+    "cardName": "Nude beaches"
+  },
+  {
+    "id": 90,
+    "cardName": "Pinocchio"
+  },
+  {
+    "id": 91,
+    "cardName": "Morning wood"
+  },
+  {
+    "id": 92,
+    "cardName": "Pants tent"
+  },
+  {
+    "id": 93,
+    "cardName": "Botox"
+  },
+  {
+    "id": 94,
+    "cardName": "Used cars"
+  },
+  {
+    "id": 95,
+    "cardName": "Drug dealers"
+  },
+  {
+    "id": 96,
+    "cardName": "Twinkies"
+  },
+  {
+    "id": 97,
+    "cardName": "The G Spot"
+  },
+  {
+    "id": 98,
+    "cardName": "Lindsay Lohan"
+  },
+  {
+    "id": 99,
+    "cardName": "Dive bars"
+  },
+  {
+    "id": 100,
+    "cardName": "Cargo pants"
+  },
+  {
+    "id": 101,
+    "cardName": "Polygamy"
+  },
+  {
+    "id": 102,
+    "cardName": "The early bird special"
+  },
+  {
+    "id": 103,
+    "cardName": "Wakanda"
+  },
+  {
+    "id": 104,
+    "cardName": "Morgan Freeman's voice"
+  },
+  {
+    "id": 105,
+    "cardName": "Monica Lewinksy"
+  },
+  {
+    "id": 106,
+    "cardName": "The platypus"
+  },
+  {
+    "id": 107,
+    "cardName": "Foot long hot dogs"
+  },
+  {
+    "id": 108,
+    "cardName": "Edible panties"
+  },
+  {
+    "id": 109,
+    "cardName": "Sea World"
+  },
+  {
+    "id": 110,
+    "cardName": "The Loch Ness Monster"
+  },
+  {
+    "id": 111,
+    "cardName": "Ruth Bader Ginsburg"
+  },
+  {
+    "id": 112,
+    "cardName": "Riker's Island"
+  },
+  {
+    "id": 113,
+    "cardName": "Clowns"
+  },
+  {
+    "id": 114,
+    "cardName": "Helen Keller"
+  },
+  {
+    "id": 115,
+    "cardName": "Hippie lettuce"
+  },
+  {
+    "id": 116,
+    "cardName": "Woodstock 69"
+  },
+  {
+    "id": 117,
+    "cardName": "Red headed step child"
+  },
+  {
+    "id": 118,
+    "cardName": "Fox News"
+  },
+  {
+    "id": 119,
+    "cardName": "Magic mushrooms"
+  },
+  {
+    "id": 120,
+    "cardName": "Steven Avery"
+  },
+  {
+    "id": 121,
+    "cardName": "Braces"
+  },
+  {
+    "id": 122,
+    "cardName": "A bar or bat mitzvah"
+  },
+  {
+    "id": 123,
+    "cardName": "Dad bod"
+  },
+  {
+    "id": 124,
+    "cardName": "Marshmallows"
+  },
+  {
+    "id": 125,
+    "cardName": "Bag of dog poo on fire"
+  },
+  {
+    "id": 126,
+    "cardName": "Sun roofs"
+  },
+  {
+    "id": 127,
+    "cardName": "Lord of the Rings"
+  },
+  {
+    "id": 128,
+    "cardName": "Ear of corn"
+  },
+  {
+    "id": 129,
+    "cardName": "The Jersey Shore"
+  },
+  {
+    "id": 130,
+    "cardName": "Burning Man"
+  },
+  {
+    "id": 131,
+    "cardName": "Plastic surgery"
+  },
+  {
+    "id": 132,
+    "cardName": "90 Day Fiancé"
+  },
+  {
+    "id": 133,
+    "cardName": "Property Brothers"
+  },
+  {
+    "id": 134,
+    "cardName": "A Spike Lee Joint"
+  },
+  {
+    "id": 135,
+    "cardName": "Hot Topic"
+  },
+  {
+    "id": 136,
+    "cardName": "Mohawk"
+  },
+  {
+    "id": 137,
+    "cardName": "Pierced nipples"
+  },
+  {
+    "id": 138,
+    "cardName": "Oat milk"
+  },
+  {
+    "id": 139,
+    "cardName": "Vegans"
+  },
+  {
+    "id": 140,
+    "cardName": "Hotel slippers"
+  },
+  {
+    "id": 141,
+    "cardName": "Watergate"
+  },
+  {
+    "id": 142,
+    "cardName": "Y2K"
+  },
+  {
+    "id": 143,
+    "cardName": "Flavor Flav"
+  },
+  {
+    "id": 144,
+    "cardName": "The beat drop"
+  },
+  {
+    "id": 145,
+    "cardName": "Linedancing"
+  },
+  {
+    "id": 146,
+    "cardName": "Airplane bathrooms"
+  },
+  {
+    "id": 147,
+    "cardName": "You're not my real dad"
+  },
+  {
+    "id": 148,
+    "cardName": "Mrs. Doubtfire"
+  },
+  {
+    "id": 149,
+    "cardName": "Tamagotchis"
+  },
+  {
+    "id": 150,
+    "cardName": "Michelle Obama"
+  },
+  {
+    "id": 151,
+    "cardName": "The middle seat on a plane"
+  },
+  {
+    "id": 152,
+    "cardName": "Baby Yoda"
+  },
+  {
+    "id": 153,
+    "cardName": "Yankees"
+  },
+  {
+    "id": 154,
+    "cardName": "Tom Brady"
+  },
+  {
+    "id": 155,
+    "cardName": "Miley Cyrus"
+  },
+  {
+    "id": 156,
+    "cardName": "LaLa (from Teletubbies)"
+  },
+  {
+    "id": 157,
+    "cardName": "Al Pacino"
+  },
+  {
+    "id": 158,
+    "cardName": "Olaf"
+  },
+  {
+    "id": 159,
+    "cardName": "Puff The Magic Dragon"
   }
 ]

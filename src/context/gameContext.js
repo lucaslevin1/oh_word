@@ -4,18 +4,21 @@ import {
   createCards,
   determineTeamTurnOnFlip,
   determineWinner,
+  createCardUrlExtension,
 } from './helpers';
 
-// Actions
-const END_TURN = 'end_turn';
-const FLIP_CARD = 'flip_card';
+import { blue, red, END_TURN, FLIP_CARD } from '../constants';
+
+const initialCards = createCards(cards);
+const cardUrlExtension = createCardUrlExtension(initialCards);
 
 const initialState = {
-  cards: createCards(cards),
+  cards: initialCards,
   blueScore: 0,
   redScore: 0,
-  teamTurn: 'blue',
+  teamTurn: blue,
   winner: null,
+  cardUrlExtension,
 };
 
 const gameReducer = (state, action) => {
@@ -23,7 +26,7 @@ const gameReducer = (state, action) => {
     case END_TURN: {
       return {
         ...state,
-        teamTurn: state.teamTurn === 'blue' ? 'red' : 'blue',
+        teamTurn: state.teamTurn === blue ? red : blue,
       };
     }
     case FLIP_CARD: {
@@ -36,8 +39,8 @@ const gameReducer = (state, action) => {
           card.isFlipped = true;
           return card;
         }),
-        blueScore: state.blueScore + (action.payload.team === 'blue' ? 1 : 0),
-        redScore: state.redScore + (action.payload.team === 'red' ? 1 : 0),
+        blueScore: state.blueScore + (action.payload.team === blue ? 1 : 0),
+        redScore: state.redScore + (action.payload.team === red ? 1 : 0),
         teamTurn: determineTeamTurnOnFlip(state.teamTurn, action.payload.team),
         winner: determineWinner(
           state.teamTurn,

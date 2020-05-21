@@ -1,11 +1,4 @@
-import {
-  red,
-  blue,
-  neutral,
-  death,
-  cardOrderForUrl,
-  numberOfCards,
-} from '../constants';
+import { red, blue, neutral, death, numberOfCards } from '../constants';
 
 const selectRandomCards = (cards) => {
   const idArray = [],
@@ -99,20 +92,4 @@ const determineWinner = (teamTurn, blueScore, redScore, cardTeam) => {
   return null;
 };
 
-const createCardUrlExtension = (initialCards) => {
-  const mixedCardLetters = new Array(numberOfCards);
-  const cardLetters = initialCards.map((card) => card.team[0]);
-
-  cardLetters.forEach((cardLetter, index) => {
-    mixedCardLetters[cardOrderForUrl[index]] = cardLetter;
-  });
-
-  return mixedCardLetters.join('');
-};
-
-export {
-  createCards,
-  determineTeamTurnOnFlip,
-  determineWinner,
-  createCardUrlExtension,
-};
+export { createCards, determineTeamTurnOnFlip, determineWinner };

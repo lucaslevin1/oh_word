@@ -1,24 +1,19 @@
 import createDataContext from './createDataContext';
-import cards from '../data/cards.json';
+import cardData from '../data/cards.json';
 import {
   createCards,
   determineTeamTurnOnFlip,
   determineWinner,
-  createCardUrlExtension,
 } from './helpers';
 
 import { blue, red, END_TURN, FLIP_CARD } from '../constants';
 
-const initialCards = createCards(cards);
-const cardUrlExtension = createCardUrlExtension(initialCards);
-
 const initialState = {
-  cards: initialCards,
+  cards: createCards(cardData),
   blueScore: 0,
   redScore: 0,
   teamTurn: blue,
   winner: null,
-  cardUrlExtension,
 };
 
 const gameReducer = (state, action) => {

@@ -4,8 +4,9 @@ import ViewSpyMasterButton from './ViewSpyMasterButton';
 import Score from './Score';
 import TurnContainer from './TurnContainer';
 import GameCard from './GameCard';
-import { Context as GameContext } from '../context/gameContext';
 import FiveByFiveGrid from './FiveByFiveGrid';
+import TimerContainer from './TimerContainer';
+import { Context as GameContext } from '../context/gameContext';
 
 const Game = () => {
   const {
@@ -21,6 +22,7 @@ const Game = () => {
         <Score />
         <TurnContainer />
       </Grid>
+      <TimerContainer />
       <FiveByFiveGrid>
         {cards.map((card) => {
           return <GameCard key={card.id} card={card} />;

@@ -13,7 +13,7 @@
   },
   {
     "id": 4,
-    "cardName": "An eggplant"
+    "cardName": "Eggplant emoji"
   },
   {
     "id": 5,
@@ -509,7 +509,7 @@
   },
   {
     "id": 128,
-    "cardName": "Ear of corn"
+    "cardName": "An ear of corn"
   },
   {
     "id": 129,
@@ -541,7 +541,7 @@
   },
   {
     "id": 136,
-    "cardName": "Mohawk"
+    "cardName": "Mohawks"
   },
   {
     "id": 137,
@@ -609,7 +609,7 @@
   },
   {
     "id": 153,
-    "cardName": "Yankees"
+    "cardName": "The Yankees"
   },
   {
     "id": 154,
@@ -634,5 +634,57 @@
   {
     "id": 159,
     "cardName": "Puff The Magic Dragon"
+  },
+  {
+    "id": 160,
+    "cardName": "Pirate booty"
+  },
+  {
+    "id": 161,
+    "cardName": "Android phones"
+  },
+  {
+    "id": 162,
+    "cardName": "Pillow talk"
+  },
+  {
+    "id": 163,
+    "cardName": "Toilet paper shortages"
+  },
+  {
+    "id": 164,
+    "cardName": "Spider-Man"
+  },
+  {
+    "id": 165,
+    "cardName": "SATs"
+  },
+  {
+    "id": 166,
+    "cardName": "Gushers fruit snacks"
+  },
+  {
+    "id": 167,
+    "cardName": "Neutering"
+  },
+  {
+    "id": 168,
+    "cardName": "Family time"
+  },
+  {
+    "id": 169,
+    "cardName": "Weiner schnitzel"
+  },
+  {
+    "id": 170,
+    "cardName": "Where's Waldo?"
+  },
+  {
+    "id": 171,
+    "cardName": "Hulk Hogan"
+  },
+  {
+    "id": 172,
+    "cardName": "Baskin Robbins"
   }
 ]

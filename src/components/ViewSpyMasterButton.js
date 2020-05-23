@@ -26,7 +26,7 @@ const ViewSpyMasterButton = () => {
           target='_blank'
           rel='noopener noreferrer'
           href={`mailto:?subject=Spy Master Link&body=${
-            process.env.REACT_APP_NGROK
+            process.env.REACT_APP_PRODUCTION
           }/spymaster/${createCardUrlExtension(cards)}`}
         >
           <Button>Email Spy Master Link</Button>

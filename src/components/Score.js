@@ -11,10 +11,10 @@ const Score = () => {
     <Grid.Column verticalAlign='middle'>
       <div className='score-box-container'>
         <div className='score-box score-box--blue'>
-          <p className='label circlular-std-book'>{blueScore}/9</p>
+          <p className='label circular-std-book'>{blueScore}/9</p>
         </div>
         <div className='score-box score-box--red'>
-          <p className='label circlular-std-book'>{redScore}/8</p>
+          <p className='label circular-std-book'>{redScore}/8</p>
         </div>
       </div>
     </Grid.Column>

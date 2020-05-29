@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 2em 12em;
+  padding: 0;
 }
 
 code {
@@ -25,16 +25,21 @@ code {
     url(./fonts/CircularStd-Book.ttf) format('truetype');
 }
 
-.circlular-std-medium {
+.circular-std-medium {
   font-family: 'CircularStd-Medium';
 }
 
-.circlular-std-book {
+.circular-std-book {
   font-family: 'CircularStd-Book';
+}
+
+.main-content-container {
+  padding: 2em 5em;
 }
 
 .header-container {
   text-align: center;
+  margin-bottom: 1em;
 }
 
 .timer-container {
@@ -68,8 +73,17 @@ code {
   font-size: 1em;
 }
 
+.large-header {
+  font-size: 2em;
+}
+
 .space-right {
   margin-right: 1em;
+}
+
+.seconds-container {
+  height: 1em;
+  text-align: center;
 }
 
 .score-box {
@@ -120,14 +134,41 @@ code {
   padding: 0.6em 1.2em;
   border: 1px solid black;
   border-radius: 0.3em;
+  font-family: 'CircularStd-Medium';
 }
 
 .end-turn__button:hover {
   cursor: pointer;
 }
 
+.game-rules-button {
+  font-size: 0.9em;
+  color: black;
+  background-color: #fed92a;
+  padding: 0.6em 1.2em;
+  border: 1px solid black;
+  border-radius: 0.3em;
+  font-family: 'CircularStd-Medium';
+  margin-top: 3em;
+}
+
+.game-rules-button:hover {
+  cursor: pointer;
+}
+
 .card-text {
   font-size: 0.9em;
+}
+
+.instructions-box {
+  height: 100%;
+  width: 100%;
+  background-color: #00ade6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8em 2em 0 2em;
+  color: white;
 }
 
 .game-card {
@@ -142,7 +183,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0px;
+  border: 0;
 }
 
 .minimal-grid-padding {

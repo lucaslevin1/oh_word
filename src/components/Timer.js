@@ -34,7 +34,9 @@ const Timer = () => {
     return timeArray.join(':');
   };
 
-  return <p>{formatSeconds(secondsLeft)}</p>;
+  return (
+    <p className='label circular-std-medium'>{formatSeconds(secondsLeft)}</p>
+  );
 };
 
 export default Timer;

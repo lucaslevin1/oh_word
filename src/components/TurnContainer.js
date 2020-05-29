@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Grid, Header, Button } from 'semantic-ui-react';
+import { Grid } from 'semantic-ui-react';
 import { Context as GameContext } from '../context/gameContext';
 
 const TurnContainer = () => {
@@ -18,7 +18,7 @@ const TurnContainer = () => {
     <Grid.Column textAlign='right'>
       <div className='end-turn__container'>
         <div className='end-turn__inner-container'>
-          <p className='label circlular-std-book end-turn__label'>
+          <p className='label circular-std-book end-turn__label'>
             {winner
               ? capitalizeFirstLetter(winner) + ' Wins'
               : teamStr + "'s turn"}

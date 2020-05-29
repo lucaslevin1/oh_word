@@ -9,10 +9,10 @@ const Header = () => {
         className='logo'
         centered={true}
       />
-      <p class='header circlular-std-medium'>
+      <p class='header circular-std-medium'>
         Code Names meets Cards Against Humanity
       </p>
-      <p class='sub-header circlular-std-medium'>Game Session: KYDF</p>
+      <p class='sub-header circular-std-medium'>Game Session: KYDF</p>
     </div>
   );
 };

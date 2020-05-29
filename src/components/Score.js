@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
-import { Grid, Header } from 'semantic-ui-react';
+import { Grid } from 'semantic-ui-react';
 import { Context as GameContext } from '../context/gameContext';
-import { blue, red } from '../constants';
 
 const Score = () => {
   const {
@@ -9,19 +8,15 @@ const Score = () => {
   } = useContext(GameContext);
 
   return (
-    <Grid.Column width={8} textAlign='left'>
-      <Grid columns={2} verticalAlign='middle'>
-        <Grid.Column width={4}>
-          <Header size='medium' color={blue}>
-            Blue: {blueScore}/9
-          </Header>
-        </Grid.Column>
-        <Grid.Column width={4}>
-          <Header size='medium' color={red}>
-            Red: {redScore}/8
-          </Header>
-        </Grid.Column>
-      </Grid>
+    <Grid.Column verticalAlign='middle'>
+      <div className='score-box-container'>
+        <div className='score-box score-box--blue'>
+          <p className='label circlular-std-book'>{blueScore}/9</p>
+        </div>
+        <div className='score-box score-box--red'>
+          <p className='label circlular-std-book'>{redScore}/8</p>
+        </div>
+      </div>
     </Grid.Column>
   );
 };

@@ -6,15 +6,18 @@ const GameCard = ({ card }) => {
   const { flipCard } = useContext(GameContext);
 
   return (
-    <Grid.Column>
-      <div
+    <Grid.Column className='minimal-grid-padding'>
+      <button
         className={`game-card ${
           'game-card--' + (card.isFlipped ? card.team : '')
         }`}
         onClick={() => flipCard(card)}
+        disabled={card.isFlipped}
       >
-        {card.cardName}
-      </div>
+        {card.isFlipped ? null : (
+          <p className='card-text circular-std-book'>{card.cardName}</p>
+        )}
+      </button>
     </Grid.Column>
   );
 };

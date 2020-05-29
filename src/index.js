@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Provider as GameProvider } from './context/gameContext';
+import './fonts/CircularStd-Medium.ttf';
+import './fonts/CircularStd-Book.ttf';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 2em;
+  padding: 2em 12em;
 }
 
 code {
@@ -13,56 +13,156 @@ code {
     monospace;
 }
 
-.game-card {
-  height: 5em;
-  line-height: 5em;
-  background-color: #e0e1e2;
+@font-face {
+  font-family: 'CircularStd-Medium';
+  src: local('CircularStd-Medium'),
+    url(./fonts/CircularStd-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'CircularStd-Book';
+  src: local('CircularStd-Book'),
+    url(./fonts/CircularStd-Book.ttf) format('truetype');
+}
+
+.circlular-std-medium {
+  font-family: 'CircularStd-Medium';
+}
+
+.circlular-std-book {
+  font-family: 'CircularStd-Book';
+}
+
+.header-container {
   text-align: center;
-  vertical-align: middle;
-  color: rgba(0, 0, 0, 0.6);
-  font-weight: bold;
-  width: 100%;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  margin-bottom: 1em;
+}
+
+.stop-watch {
+  height: 3em;
+  width: auto;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+}
+
+.header {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.sub-header {
+  font-size: 1.1em;
+}
+
+.label {
+  font-size: 1em;
+}
+
+.space-right {
+  margin-right: 1em;
+}
+
+.score-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4em;
+  width: 8em;
+  border: 1px solid black;
   border-radius: 0.5em;
 }
 
-.game-card:hover {
-  background-color: #cacbcd;
+.score-box-container {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.score-box--blue {
+  background-color: #a6deff;
+  margin-right: 1em;
+}
+
+.score-box--red {
+  background-color: #ff9196;
+  margin-left: 1em;
+}
+
+.end-turn__label {
+  margin-bottom: 0.5em;
+}
+
+.end-turn__container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.end-turn__inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.end-turn__button {
+  font-size: 0.9em;
+  color: white;
+  background-color: #e60000;
+  padding: 0.6em 1.2em;
+  border: 1px solid black;
+  border-radius: 0.3em;
+}
+
+.end-turn__button:hover {
+  cursor: pointer;
+}
+
+.card-text {
+  font-size: 0.9em;
+}
+
+.game-card {
+  background-image: url('./assets/unflipped-card.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  width: 100%;
+  height: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+}
+
+.minimal-grid-padding {
+  padding: 0.2em 0 !important;
 }
 
 .game-card--red {
-  background-color: #db2828;
-  color: white;
-}
-
-.game-card--red:hover {
-  background-color: #db2828;
+  background-image: url('./assets/red.png');
 }
 
 .game-card--blue {
-  background-color: #2185d0;
-  color: white;
-}
-
-.game-card--blue:hover {
-  background-color: #2185d0;
+  background-image: url('./assets/blue.png');
 }
 
 .game-card--neutral {
-  background-color: #fbbd08;
-  color: white;
-}
-
-.game-card--neutral:hover {
-  background-color: #fbbd08;
+  background-image: url('./assets/neutral.png');
 }
 
 .game-card--death {
-  background-color: black;
-  color: white;
-}
-
-.game-card--death:hover {
-  background-color: black;
+  background-image: url('./assets/game_over.png');
 }
 
 .game-card--spymaster-view {

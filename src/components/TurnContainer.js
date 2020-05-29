@@ -15,21 +15,23 @@ const TurnContainer = () => {
   const teamStr = capitalizeFirstLetter(teamTurn);
 
   return (
-    <Grid.Column width={8} textAlign='right'>
-      <Grid columns={2} verticalAlign='middle'>
-        <Grid.Column width={8}>
-          <Header size='medium'>
+    <Grid.Column textAlign='right'>
+      <div className='end-turn__container'>
+        <div className='end-turn__inner-container'>
+          <p className='label circlular-std-book end-turn__label'>
             {winner
               ? capitalizeFirstLetter(winner) + ' Wins'
               : teamStr + "'s turn"}
-          </Header>
-        </Grid.Column>
-        <Grid.Column width={8}>
-          <Button disabled={winner} onClick={() => changeTurns()}>
-            End {teamStr}'s Turn
-          </Button>
-        </Grid.Column>
-      </Grid>
+          </p>
+          <button
+            disabled={winner}
+            onClick={() => changeTurns()}
+            className='end-turn__button'
+          >
+            End turn
+          </button>
+        </div>
+      </div>
     </Grid.Column>
   );
 };

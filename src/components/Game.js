@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
-import { Header, Grid } from 'semantic-ui-react';
+import { Grid } from 'semantic-ui-react';
+import Header from './Header';
 import ViewSpyMasterButton from './ViewSpyMasterButton';
 import Score from './Score';
 import TurnContainer from './TurnContainer';
@@ -15,14 +16,12 @@ const Game = () => {
 
   return (
     <React.Fragment>
-      <Header as='h1' textAlign='center'>
-        Oh Word
-      </Header>
-      <Grid colums='equal' verticalAlign='middle'>
+      <Header />
+      <Grid columns='equal' verticalAlign='middle'>
+        <TimerContainer />
         <Score />
         <TurnContainer />
       </Grid>
-      <TimerContainer />
       <FiveByFiveGrid>
         {cards.map((card) => {
           return <GameCard key={card.id} card={card} />;

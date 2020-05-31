@@ -17,7 +17,7 @@ const Header = ({ gameSessionId, showInstructions, setShowInstructions }) => {
       </p>
       {showInstructions ? null : (
         <p
-          className='text-link linkedin-link'
+          className='text-link blue-link'
           onClick={() => setShowInstructions(true)}
         >
           Show Instructions

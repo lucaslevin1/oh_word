@@ -122,6 +122,10 @@ code {
   margin-top: 0 !important;
 }
 
+.large-space-top {
+  margin-top: 2em;
+}
+
 .score-box {
   display: flex;
   align-items: center;
@@ -169,19 +173,15 @@ code {
   cursor: pointer;
 }
 
-.end-turn-button {
+.red-button {
   background-color: #e60000;
   color: white;
 }
 
-.game-rules-button {
+.yellow-button {
   background-color: #fed92a;
   color: black;
   margin-top: 3em;
-}
-
-.game-rules-button:hover {
-  cursor: pointer;
 }
 
 .instructions-container {
@@ -217,23 +217,19 @@ code {
   cursor: pointer;
 }
 
-.developer-help-link {
-  margin: 2em 0 0 0;
-}
-
-.url-link {
+.white-link {
   color: white;
 }
 
-.url-link:hover {
+.white-link:hover {
   color: white;
 }
 
-.linkedin-link {
+.blue-link {
   color: #00ade6;
 }
 
-.linkedin-link:hover {
+.blue-link:hover {
   color: #00ade6;
 }
 
@@ -269,7 +265,7 @@ code {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   text-align: center;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.8);
   font-weight: bold;
   width: 100%;
   height: 8em;

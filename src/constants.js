@@ -5,7 +5,6 @@ export const death = 'death';
 export const neutral = 'neutral';
 
 // Game settings
-export const timerSeconds = 120;
 export const numberOfCards = 25;
 export const cardOrderForUrl = [
   4,

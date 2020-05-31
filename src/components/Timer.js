@@ -1,44 +1,42 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { timerSeconds } from '../constants';
+import React, { useEffect, useContext } from 'react';
 import { Context as GameContext } from '../context/gameContext';
 
-const Timer = () => {
-  const [secondsLeft, setSecondsLeft] = useState(timerSeconds);
+const Timer = ({ fullTimerSeconds, timerSeconds, setTimerSeconds }) => {
   const { changeTurns } = useContext(GameContext);
 
   useEffect(() => {
-    if (secondsLeft === 0) {
-      setSecondsLeft(timerSeconds);
+    if (timerSeconds === 0) {
+      setTimerSeconds(fullTimerSeconds);
       changeTurns();
     }
 
     const timer = setTimeout(() => {
-      setSecondsLeft(secondsLeft - 1);
+      setTimerSeconds(timerSeconds - 1);
     }, 1000);
 
     return () => clearTimeout(timer);
-  }, [secondsLeft, changeTurns]);
-
-  const formatSeconds = (seconds) => {
-    const timeArray = [];
-
-    timeArray.push(Math.floor(seconds / 60).toString());
-    timeArray.push((seconds % 60).toString());
-
-    let secondsCount = timeArray[1];
-
-    if (secondsCount.length === 1) {
-      timeArray[1] = '0' + secondsCount;
-    }
-
-    return timeArray.join(':');
-  };
+  }, [fullTimerSeconds, timerSeconds, setTimerSeconds, changeTurns]);
 
   return (
     <p className='paragraph-text circular-std-medium'>
-      {formatSeconds(secondsLeft)}
+      {formatSeconds(timerSeconds)}
     </p>
   );
 };
 
 export default Timer;
+
+const formatSeconds = (seconds) => {
+  const timeArray = [];
+
+  timeArray.push(Math.floor(seconds / 60).toString());
+  timeArray.push((seconds % 60).toString());
+
+  let secondsCount = timeArray[1];
+
+  if (secondsCount.length === 1) {
+    timeArray[1] = '0' + secondsCount;
+  }
+
+  return timeArray.join(':');
+};

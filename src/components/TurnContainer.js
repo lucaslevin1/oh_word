@@ -2,17 +2,24 @@ import React, { useContext } from 'react';
 import { Grid } from 'semantic-ui-react';
 import { Context as GameContext } from '../context/gameContext';
 
-const TurnContainer = ({ isTimerActive, setIsTimerActive }) => {
+const TurnContainer = ({
+  isTimerActive,
+  setTimerSeconds,
+  fullTimerSeconds,
+}) => {
   const {
     state: { teamTurn, winner },
     changeTurns,
   } = useContext(GameContext);
 
-  const capitalizeFirstLetter = (str) => {
-    return str[0].toUpperCase() + str.slice(1, str.length);
-  };
-
   const teamStr = capitalizeFirstLetter(teamTurn);
+
+  const changeTurnHandler = () => {
+    changeTurns();
+    if (isTimerActive) {
+      setTimerSeconds(fullTimerSeconds);
+    }
+  };
 
   return (
     <Grid.Column textAlign='right'>
@@ -25,11 +32,8 @@ const TurnContainer = ({ isTimerActive, setIsTimerActive }) => {
           </p>
           <button
             disabled={winner}
-            onClick={() => {
-              changeTurns();
-              if (isTimerActive) setIsTimerActive(!!isTimerActive);
-            }}
-            className='standard-button end-turn-button'
+            onClick={() => changeTurnHandler()}
+            className='standard-button red-button'
           >
             End turn
           </button>
@@ -40,3 +44,7 @@ const TurnContainer = ({ isTimerActive, setIsTimerActive }) => {
 };
 
 export default TurnContainer;
+
+const capitalizeFirstLetter = (str) => {
+  return str[0].toUpperCase() + str.slice(1, str.length);
+};

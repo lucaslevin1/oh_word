@@ -3,7 +3,7 @@ import { Grid } from 'semantic-ui-react';
 
 const SpyCard = ({ cardColor }) => {
   return (
-    <Grid.Column>
+    <Grid.Column className='minimal-grid-padding'>
       <div
         className={`game-card game-card--spymaster-view game-card--${cardColor}`}
       />

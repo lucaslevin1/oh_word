@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { Header } from 'semantic-ui-react';
 import FiveByFiveGrid from './FiveByFiveGrid';
 import SpyCard from './SpyCard';
 import { blue, red, neutral, death, cardOrderForUrl } from '../constants';
 
 const SpyMaster = () => {
-  const { cardUrlExtension } = useParams();
+  const { cardUrlExtension, gameSessionId } = useParams();
   const [board, setBoard] = useState([]);
 
   useEffect(() => {
@@ -28,10 +27,12 @@ const SpyMaster = () => {
   }, [cardUrlExtension]);
 
   return (
-    <React.Fragment>
-      <Header as='h1' textAlign='center'>
-        SpyMaster View
-      </Header>
+    <div className='spy-master-container'>
+      <div className='spy-master-header-container'>
+        <h1 className='circular-std-medium'>
+          Spy Master View - {gameSessionId}
+        </h1>
+      </div>
       <FiveByFiveGrid>
         {board.length
           ? board.map((square, index) => (
@@ -39,7 +40,7 @@ const SpyMaster = () => {
             ))
           : null}
       </FiveByFiveGrid>
-    </React.Fragment>
+    </div>
   );
 };
 

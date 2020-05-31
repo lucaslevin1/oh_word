@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Grid } from 'semantic-ui-react';
 import { Context as GameContext } from '../context/gameContext';
 
-const TurnContainer = () => {
+const TurnContainer = ({ isTimerActive, setIsTimerActive }) => {
   const {
     state: { teamTurn, winner },
     changeTurns,
@@ -18,15 +18,18 @@ const TurnContainer = () => {
     <Grid.Column textAlign='right'>
       <div className='end-turn__container'>
         <div className='end-turn__inner-container'>
-          <p className='label circular-std-book end-turn__label'>
+          <p className='paragraph-text circular-std-book end-turn__label'>
             {winner
               ? capitalizeFirstLetter(winner) + ' Wins'
               : teamStr + "'s turn"}
           </p>
           <button
             disabled={winner}
-            onClick={() => changeTurns()}
-            className='end-turn__button'
+            onClick={() => {
+              changeTurns();
+              if (isTimerActive) setIsTimerActive(!!isTimerActive);
+            }}
+            className='standard-button end-turn-button'
           >
             End turn
           </button>

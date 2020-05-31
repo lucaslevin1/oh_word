@@ -35,7 +35,9 @@ const Timer = () => {
   };
 
   return (
-    <p className='label circular-std-medium'>{formatSeconds(secondsLeft)}</p>
+    <p className='paragraph-text circular-std-medium'>
+      {formatSeconds(secondsLeft)}
+    </p>
   );
 };
 

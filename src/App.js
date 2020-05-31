@@ -7,7 +7,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/spymaster/:cardUrlExtension' component={SpyMaster} />
+        <Route
+          path='/spymaster/:cardUrlExtension/:gameSessionId'
+          component={SpyMaster}
+        />
         <Route path='/' component={Game} />
       </Switch>
     </Router>

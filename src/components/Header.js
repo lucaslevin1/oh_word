@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image } from 'semantic-ui-react';
 
-const Header = () => {
+const Header = ({ gameSessionId, showInstructions, setShowInstructions }) => {
   return (
     <div className='header-container'>
       <Image
@@ -9,10 +9,20 @@ const Header = () => {
         className='logo'
         centered={true}
       />
-      <p class='header circular-std-medium'>
+      <p className='header circular-std-medium'>
         Code Names meets Cards Against Humanity
       </p>
-      <p class='sub-header circular-std-medium'>Game Session: KYDF</p>
+      <p className='sub-header circular-std-medium'>
+        Game Session: {gameSessionId}
+      </p>
+      {showInstructions ? null : (
+        <p
+          className='text-link linkedin-link'
+          onClick={() => setShowInstructions(true)}
+        >
+          Show Instructions
+        </p>
+      )}
     </div>
   );
 };

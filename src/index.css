@@ -13,6 +13,8 @@ code {
     monospace;
 }
 
+/* Fonts */
+
 @font-face {
   font-family: 'CircularStd-Medium';
   src: local('CircularStd-Medium'),
@@ -33,8 +35,14 @@ code {
   font-family: 'CircularStd-Book';
 }
 
+/* Containers */
+
 .main-content-container {
   padding: 2em 5em;
+}
+
+.main-content-container--extra-padding {
+  padding: 2em 10em;
 }
 
 .header-container {
@@ -46,6 +54,24 @@ code {
   display: flex;
   flex-direction: row;
 }
+
+.spy-master-header-container {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.seconds-container {
+  height: 1em;
+  text-align: center;
+}
+
+.score-box-container {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+/* Images */
 
 .logo {
   height: 100px;
@@ -60,30 +86,40 @@ code {
   margin-left: 1em;
 }
 
+/* Text Sizes */
+
+.large-header {
+  font-size: 2em;
+}
+
 .header {
   font-size: 1.2em;
-  margin-bottom: 0.5em;
 }
 
 .sub-header {
   font-size: 1.1em;
 }
 
-.label {
+.paragraph-text {
   font-size: 1em;
 }
 
-.large-header {
-  font-size: 2em;
+.card-text {
+  font-size: 0.9em;
 }
+
+/* Spacing */
 
 .space-right {
   margin-right: 1em;
 }
 
-.seconds-container {
-  height: 1em;
-  text-align: center;
+.space-left {
+  margin-left: 1em;
+}
+
+.no-margin-top {
+  margin-top: 0 !important;
 }
 
 .score-box {
@@ -94,12 +130,6 @@ code {
   width: 8em;
   border: 1px solid black;
   border-radius: 0.5em;
-}
-
-.score-box-container {
-  display: flex;
-  justify-content: center;
-  vertical-align: middle;
 }
 
 .score-box--blue {
@@ -127,28 +157,26 @@ code {
   align-items: center;
 }
 
-.end-turn__button {
+.standard-button {
   font-size: 0.9em;
-  color: white;
-  background-color: #e60000;
   padding: 0.6em 1.2em;
   border: 1px solid black;
   border-radius: 0.3em;
   font-family: 'CircularStd-Medium';
 }
 
-.end-turn__button:hover {
+.standard-button:hover {
   cursor: pointer;
 }
 
+.end-turn-button {
+  background-color: #e60000;
+  color: white;
+}
+
 .game-rules-button {
-  font-size: 0.9em;
-  color: black;
   background-color: #fed92a;
-  padding: 0.6em 1.2em;
-  border: 1px solid black;
-  border-radius: 0.3em;
-  font-family: 'CircularStd-Medium';
+  color: black;
   margin-top: 3em;
 }
 
@@ -156,20 +184,85 @@ code {
   cursor: pointer;
 }
 
-.card-text {
-  font-size: 0.9em;
-}
-
-.instructions-box {
+.instructions-container {
   height: 100%;
   width: 100%;
   background-color: #00ade6;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 8em 2em 0 2em;
+  padding: 2em 2em 0 2em;
   color: white;
 }
+
+.instructions-close-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.instructions-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4em;
+}
+
+.text-link {
+  color: black;
+}
+
+.text-link:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.developer-help-link {
+  margin: 2em 0 0 0;
+}
+
+.url-link {
+  color: white;
+}
+
+.url-link:hover {
+  color: white;
+}
+
+.linkedin-link {
+  color: #00ade6;
+}
+
+.linkedin-link:hover {
+  color: #00ade6;
+}
+
+.icon-hover:hover {
+  cursor: pointer;
+}
+
+.spy-master-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.word-wrap {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.minimal-grid-padding {
+  padding: 0.2em 0 !important;
+}
+
+/* Game Cards */
 
 .game-card {
   background-image: url('./assets/unflipped-card.png');
@@ -184,10 +277,6 @@ code {
   justify-content: center;
   align-items: center;
   border: 0;
-}
-
-.minimal-grid-padding {
-  padding: 0.2em 0 !important;
 }
 
 .game-card--red {
@@ -206,6 +295,22 @@ code {
   background-image: url('./assets/game_over.png');
 }
 
-.game-card--spymaster-view {
-  height: 3em;
+@media (min-width: 600px) {
+  .game-card--spymaster-view {
+    height: 8em;
+  }
+
+  .spy-master-container {
+    padding: 2em 12em;
+  }
+}
+
+@media (max-width: 600px) {
+  .game-card--spymaster-view {
+    height: 4em;
+  }
+
+  .spy-master-container {
+    padding: 2em;
+  }
 }

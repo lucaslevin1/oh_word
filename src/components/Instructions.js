@@ -9,27 +9,15 @@ const Instructions = ({ gameSessionId, setShowInstructions }) => {
     state: { cards },
   } = useContext(GameContext);
 
-  const createCardUrlExtension = (cards) => {
-    const mixedCardLetters = new Array(numberOfCards);
-    const cardLetters = cards.map((card) => card.team[0]);
-
-    cardLetters.forEach((cardLetter, index) => {
-      mixedCardLetters[cardOrderForUrl[index]] = cardLetter;
-    });
-
-    return mixedCardLetters.join('');
-  };
-
   const spyMasterUrl = `${
     process.env.REACT_APP_PRODUCTION
   }/spymaster/${createCardUrlExtension(cards)}/${gameSessionId}`;
 
-  const messageBody = `Game Session: ${gameSessionId} ${spyMasterUrl}`;
-  const paragraphStyles = 'paragraph-text circular-std-book';
+  const messageBody = `Game Session: ${gameSessionId} - ${spyMasterUrl}`;
 
   return (
     <div className='instructions-container'>
-      <div className='instructions-close-icon'>
+      <div className='instructions-close-icon-container'>
         <Icon
           name='close'
           onClick={() => setShowInstructions(false)}
@@ -38,12 +26,12 @@ const Instructions = ({ gameSessionId, setShowInstructions }) => {
       </div>
 
       <div className='instructions-content'>
-        <p className='circular-std-medium large-header'>Instructions</p>
-        <p className={paragraphStyles}>
+        <h1 className='circular-std-medium large-header'>Instructions</h1>
+        <p className='circular-std-book'>
           1. Share this screen with your friends over Zoom, Google Meet or any
           other video app.
         </p>
-        <p className={paragraphStyles}>
+        <p className='circular-std-book'>
           2.{' '}
           <NewTabTextLink
             classes='text-link'
@@ -56,16 +44,16 @@ const Instructions = ({ gameSessionId, setShowInstructions }) => {
             link={`sms:?&body=${messageBody}`}
             text='text'
           />{' '}
-          the link to the Spy Master view and send your game's Spy Masters.
+          the link to the Spy Master view to your game's Spy Masters.
         </p>
-        <p className={paragraphStyles}>
+        <p className='circular-std-book'>
           3. Have the Spy Masters open the link on either their computer or
           phone - either works.
         </p>
-        <p className={paragraphStyles}>
+        <p className='circular-std-book'>
           Full link:{' '}
           <NewTabTextLink
-            classes='text-link white-link word-wrap'
+            classes='text-link text-link--white word-wrap'
             link={spyMasterUrl}
             text={spyMasterUrl}
           />
@@ -75,7 +63,9 @@ const Instructions = ({ gameSessionId, setShowInstructions }) => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <button className='standard-button yellow-button'>Game Rules</button>
+          <button className='standard-button standard-button--yellow'>
+            Game Rules
+          </button>
         </a>
       </div>
     </div>
@@ -83,3 +73,15 @@ const Instructions = ({ gameSessionId, setShowInstructions }) => {
 };
 
 export default Instructions;
+
+// Helper functions
+const createCardUrlExtension = (cards) => {
+  const mixedCardLetters = new Array(numberOfCards);
+  const cardLetters = cards.map((card) => card.team[0]);
+
+  cardLetters.forEach((cardLetter, index) => {
+    mixedCardLetters[cardOrderForUrl[index]] = cardLetter;
+  });
+
+  return mixedCardLetters.join('');
+};

@@ -28,7 +28,7 @@ const SpyMaster = () => {
 
   return (
     <div className='spy-master-container'>
-      <div className='spy-master-header-container'>
+      <div className='text-align-center space-bottom'>
         <h1 className='circular-std-medium'>
           Spy Master View - {gameSessionId}
         </h1>

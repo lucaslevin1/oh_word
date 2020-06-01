@@ -11,8 +11,8 @@ const GameCard = ({ card }) => {
   return (
     <Grid.Column className='minimal-grid-padding'>
       <button
-        className={`game-card ${
-          'game-card--' + (card.isFlipped ? card.team : '')
+        className={`game-card game-card--${
+          card.isFlipped ? card.team : ''
         } text-link`}
         onClick={() => flipCard(card)}
         disabled={card.isFlipped || winner}

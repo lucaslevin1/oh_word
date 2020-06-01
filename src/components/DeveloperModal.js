@@ -5,7 +5,7 @@ const DeveloperModal = () => {
   return (
     <Modal
       trigger={
-        <p className='text-link circular-std-book large-space-top'>
+        <p className='text-link circular-std-book space-top-large'>
           Want to help the developer out?
         </p>
       }
@@ -21,7 +21,7 @@ const DeveloperModal = () => {
           <a
             target='_blank'
             rel='noopener noreferrer'
-            className='text-link blue-link'
+            className='text-link text-link--blue'
             href='https://www.linkedin.com/in/lucaslevin/'
           >
             LinkedIn

@@ -8,13 +8,13 @@ const Score = () => {
   } = useContext(GameContext);
 
   return (
-    <Grid.Column verticalAlign='middle'>
-      <div className='score-box-container'>
+    <Grid.Column>
+      <div className='score-container'>
         <div className='score-box score-box--blue'>
-          <p className='paragraph-text circular-std-book'>{blueScore}/9</p>
+          <p>{blueScore}/9</p>
         </div>
         <div className='score-box score-box--red'>
-          <p className='paragraph-text circular-std-book'>{redScore}/8</p>
+          <p>{redScore}/8</p>
         </div>
       </div>
     </Grid.Column>

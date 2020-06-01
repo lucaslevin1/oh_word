@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Grid } from 'semantic-ui-react';
 import TimerOptions from './TimerOptions';
 import Score from './Score';
-import TurnContainer from './TurnContainer';
+import TurnOptions from './TurnOptions';
 import Timer from './Timer';
 
 const GameOptions = () => {
@@ -12,7 +12,7 @@ const GameOptions = () => {
 
   return (
     <React.Fragment>
-      <div className='seconds-container'>
+      <div className='seconds-container text-align-center'>
         {isTimerActive ? (
           <Timer
             fullTimerSeconds={fullTimerSeconds}
@@ -29,7 +29,7 @@ const GameOptions = () => {
           setTimerSeconds={setTimerSeconds}
         />
         <Score />
-        <TurnContainer
+        <TurnOptions
           fullTimerSeconds={fullTimerSeconds}
           isTimerActive={isTimerActive}
           setTimerSeconds={setTimerSeconds}

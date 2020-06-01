@@ -1,18 +1,14 @@
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 import { Grid } from 'semantic-ui-react';
 import Header from './Header';
 import GameOptions from './GameOptions';
-import FiveByFiveGrid from './FiveByFiveGrid';
-import GameCard from './GameCard';
+import GameBoard from './GameBoard';
 import DeveloperModal from './DeveloperModal';
 import Instructions from './Instructions';
-import { Context as GameContext } from '../context/gameContext';
+
 import { gameSessionLetters } from '../constants';
 
 const Game = () => {
-  const {
-    state: { cards },
-  } = useContext(GameContext);
   const [showInstructions, setShowInstructions] = useState(true);
   const [gameSessionId] = useState(createGameSessionId());
 
@@ -30,16 +26,12 @@ const Game = () => {
             setShowInstructions={setShowInstructions}
           />
           <GameOptions />
-          <FiveByFiveGrid>
-            {cards.map((card) => {
-              return <GameCard key={card.id} card={card} />;
-            })}
-          </FiveByFiveGrid>
+          <GameBoard />
           <DeveloperModal />
         </div>
       </Grid.Column>
       {showInstructions ? (
-        <Grid.Column width={4}>
+        <Grid.Column width={4} className='no-padding'>
           <Instructions
             gameSessionId={gameSessionId}
             setShowInstructions={setShowInstructions}
@@ -52,6 +44,7 @@ const Game = () => {
 
 export default Game;
 
+// Helper functions
 const createGameSessionId = () => {
   const gameSessionId = [];
 

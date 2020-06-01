@@ -3,10 +3,10 @@ import { Image } from 'semantic-ui-react';
 
 const Header = ({ gameSessionId, showInstructions, setShowInstructions }) => {
   return (
-    <div className='header-container'>
+    <div className='text-align-center space-bottom'>
       <Image
         src={require('../assets/logo.png')}
-        className='logo'
+        className='header-image space-bottom'
         centered={true}
       />
       <p className='header circular-std-medium'>
@@ -17,7 +17,7 @@ const Header = ({ gameSessionId, showInstructions, setShowInstructions }) => {
       </p>
       {showInstructions ? null : (
         <p
-          className='text-link blue-link'
+          className='text-link text-link--blue'
           onClick={() => setShowInstructions(true)}
         >
           Show Instructions

@@ -29,9 +29,7 @@ const SpyMaster = () => {
   return (
     <div className='spy-master-container'>
       <div className='text-align-center space-bottom'>
-        <h1 className='circular-std-medium'>
-          Spy Master View - {gameSessionId}
-        </h1>
+        <h1 className='circular-std-book'>Spy Master View - {gameSessionId}</h1>
       </div>
       <FiveByFiveGrid>
         {board.length

@@ -10,8 +10,8 @@ const Instructions = ({ gameSessionId, setShowInstructions }) => {
   } = useContext(GameContext);
 
   const spyMasterUrl = `${
-    process.env.REACT_APP_PRODUCTION
-  }/spymaster/${createCardUrlExtension(cards)}/${gameSessionId}`;
+    process.env.REACT_APP_ENV
+  }spymaster/${createCardUrlExtension(cards)}/${gameSessionId}`;
 
   const messageBody = `Game Session: ${gameSessionId} - ${spyMasterUrl}`;
 
@@ -37,21 +37,22 @@ const Instructions = ({ gameSessionId, setShowInstructions }) => {
             classes='text-link'
             link={`mailto:?subject=Spy Master Link&body=${messageBody}`}
             text='Email'
-          />{' '}
-          or{' '}
+          />
+          ,{' '}
           <NewTabTextLink
             classes='text-link'
             link={`sms:?&body=${messageBody}`}
             text='text'
-          />{' '}
-          the link to the Spy Master view to your game's Spy Masters.
+          />
+          , or send the link below to the Spy Master View to your game's Spy
+          Masters.
         </p>
         <p className='circular-std-book'>
           3. Have the Spy Masters open the link on either their computer or
-          phone - either works.
+          phone - both work.
         </p>
         <p className='circular-std-book'>
-          Full link:{' '}
+          Spy Master View link:{' '}
           <NewTabTextLink
             classes='text-link text-link--white word-wrap'
             link={spyMasterUrl}

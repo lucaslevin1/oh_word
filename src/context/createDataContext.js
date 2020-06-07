@@ -1,5 +1,4 @@
 import React, { useReducer } from 'react';
-//new line
 
 export default (reducer, actions, defaultValue) => {
   const Context = React.createContext();

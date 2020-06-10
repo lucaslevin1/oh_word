@@ -6,18 +6,29 @@ import {
   determineWinner,
 } from './helpers';
 
-import { blue, red, END_TURN, FLIP_CARD } from '../constants';
+import { blue, red, END_TURN, FLIP_CARD, NSFW_TOGGLE } from '../constants';
 
 const initialState = {
-  cards: createCards(cardData),
+  cards: createCards(cardData, false),
   blueScore: 0,
   redScore: 0,
   teamTurn: blue,
   winner: null,
+  nsfw: false,
 };
 
 const gameReducer = (state, action) => {
   switch (action.type) {
+    case NSFW_TOGGLE:
+      return {
+        ...state,
+        blueScore: 0,
+        redScore: 0,
+        teamTurn: blue,
+        winner: null,
+        nsfw: !state.nsfw,
+        cards: createCards(cardData, !state.nsfw),
+      };
     case END_TURN: {
       return {
         ...state,
@@ -61,8 +72,14 @@ const flipCard = (dispatch) => (card) =>
     payload: card,
   });
 
+const nsfwToggle = (dispatch) => () => {
+  dispatch({
+    type: NSFW_TOGGLE,
+  });
+};
+
 export const { Provider, Context } = createDataContext(
   gameReducer,
-  { changeTurns, flipCard },
+  { changeTurns, flipCard, nsfwToggle },
   initialState
 );

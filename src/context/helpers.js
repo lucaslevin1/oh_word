@@ -1,13 +1,13 @@
 import { red, blue, neutral, death, numberOfCards } from '../constants';
 
-const selectRandomCards = (cards) => {
+const selectRandomCards = (cards, nsfw) => {
   const idArray = [],
     cardArray = [];
 
   while (cardArray.length < numberOfCards) {
     let newCard = cards[Math.floor(Math.random() * cards.length)];
 
-    if (!idArray.includes(newCard.id)) {
+    if (!idArray.includes(newCard.id) && (newCard.rating === 'G' || nsfw)) {
       cardArray.push(newCard);
       idArray.push(newCard.id);
     }
@@ -62,8 +62,8 @@ const shuffleCards = (cards) => {
   return cards;
 };
 
-const createCards = (cards) => {
-  return shuffleCards(addCardAttributes(selectRandomCards(cards)));
+const createCards = (cards, nsfw) => {
+  return shuffleCards(addCardAttributes(selectRandomCards(cards, nsfw)));
 };
 
 const determineTeamTurnOnFlip = (teamTurn, cardTeam) => {

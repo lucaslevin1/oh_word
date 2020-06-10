@@ -67,3 +67,4 @@ export const gameSessionLetters = [
 // Actions
 export const END_TURN = 'end_turn';
 export const FLIP_CARD = 'flip_card';
+export const NSFW_TOGGLE = 'nsfw_toggle';

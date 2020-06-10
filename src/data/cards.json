@@ -1,850 +1,1062 @@
 [
   {
     "id": 1,
-    "cardName": "O.J. Simpson"
+    "cardName": "O.J. Simpson",
+    "rating": "G"
   },
   {
     "id": 2,
-    "cardName": "A scrotum"
+    "cardName": "A scrotum",
+    "rating": "R"
   },
   {
     "id": 3,
-    "cardName": "Motorboating"
+    "cardName": "Motorboating",
+    "rating": "R"
   },
   {
     "id": 4,
-    "cardName": "Eggplant emoji"
+    "cardName": "Eggplant emoji",
+    "rating": "G"
   },
   {
     "id": 5,
-    "cardName": "Peach emoji"
+    "cardName": "Peach emoji",
+    "rating": "G"
   },
   {
     "id": 6,
-    "cardName": "Pixar moms"
+    "cardName": "Pixar moms",
+    "rating": "G"
   },
   {
     "id": 7,
-    "cardName": "Betty White"
+    "cardName": "Betty White",
+    "rating": "G"
   },
   {
     "id": 8,
-    "cardName": "Snapchat"
+    "cardName": "Snapchat",
+    "rating": "G"
   },
   {
     "id": 9,
-    "cardName": "Back hair"
+    "cardName": "Back hair",
+    "rating": "G"
   },
   {
     "id": 10,
-    "cardName": "Cool whip"
+    "cardName": "Cool whip",
+    "rating": "G"
   },
   {
     "id": 11,
-    "cardName": "A used condom"
+    "cardName": "A used condom",
+    "rating": "R"
   },
   {
     "id": 12,
-    "cardName": "Carmen Electra"
+    "cardName": "Carmen Electra",
+    "rating": "G"
   },
   {
     "id": 13,
-    "cardName": "Hitler"
+    "cardName": "Hitler",
+    "rating": "G"
   },
   {
     "id": 14,
-    "cardName": "Ghandi"
+    "cardName": "Ghandi",
+    "rating": "G"
   },
   {
     "id": 15,
-    "cardName": "George W. Bush"
+    "cardName": "George W. Bush",
+    "rating": "G"
   },
   {
     "id": 16,
-    "cardName": "Donald Trump"
+    "cardName": "Donald Trump",
+    "rating": "G"
   },
   {
     "id": 17,
-    "cardName": "Toe fungus"
+    "cardName": "Toe fungus",
+    "rating": "G"
   },
   {
     "id": 18,
-    "cardName": "Harry Potter"
+    "cardName": "Harry Potter",
+    "rating": "G"
   },
   {
     "id": 19,
-    "cardName": "COVID-19"
+    "cardName": "COVID-19",
+    "rating": "G"
   },
   {
     "id": 20,
-    "cardName": "Pamela Anderson"
+    "cardName": "Pamela Anderson",
+    "rating": "G"
   },
   {
     "id": 21,
-    "cardName": "Dropping the soap"
+    "cardName": "Dropping the soap",
+    "rating": "R"
   },
   {
     "id": 22,
-    "cardName": "Rectal thermometers"
+    "cardName": "Rectal thermometers",
+    "rating": "R"
   },
   {
     "id": 23,
-    "cardName": "Taco Bell"
+    "cardName": "Taco Bell",
+    "rating": "G"
   },
   {
     "id": 24,
-    "cardName": "Explosive diarrhea"
+    "cardName": "Explosive diarrhea",
+    "rating": "R"
   },
   {
     "id": 25,
-    "cardName": "Kim Jung-Un"
+    "cardName": "Kim Jung-Un",
+    "rating": "G"
   },
   {
     "id": 26,
-    "cardName": "Joe Exotic"
+    "cardName": "Joe Exotic",
+    "rating": "G"
   },
   {
     "id": 27,
-    "cardName": "Frog legs"
+    "cardName": "Frog legs",
+    "rating": "G"
   },
   {
     "id": 28,
-    "cardName": "A crack pipe"
+    "cardName": "A crack pipe",
+    "rating": "R"
   },
   {
     "id": 29,
-    "cardName": "Bong resin"
+    "cardName": "Bong resin",
+    "rating": "G"
   },
   {
     "id": 30,
-    "cardName": "Colt 45"
+    "cardName": "Colt 45",
+    "rating": "G"
   },
   {
     "id": 31,
-    "cardName": "Man boobs"
+    "cardName": "Man boobs",
+    "rating": "G"
   },
   {
     "id": 32,
-    "cardName": "Exploding Samsungs"
+    "cardName": "Exploding Samsungs",
+    "rating": "G"
   },
   {
     "id": 33,
-    "cardName": "Neverland Ranch"
+    "cardName": "Neverland Ranch",
+    "rating": "G"
   },
   {
     "id": 34,
-    "cardName": "Viagra"
+    "cardName": "Viagra",
+    "rating": "G"
   },
   {
     "id": 35,
-    "cardName": "Missionary position"
+    "cardName": "Missionary position",
+    "rating": "G"
   },
   {
     "id": 36,
-    "cardName": "Nic Cage"
+    "cardName": "Nic Cage",
+    "rating": "G"
   },
   {
     "id": 37,
-    "cardName": "Dust bunnies"
+    "cardName": "Dust bunnies",
+    "rating": "G"
   },
   {
     "id": 38,
-    "cardName": "Stripper poles"
+    "cardName": "Stripper poles",
+    "rating": "G"
   },
   {
     "id": 39,
-    "cardName": "Banana hammock"
+    "cardName": "Banana hammocks",
+    "rating": "R"
   },
   {
     "id": 40,
-    "cardName": "Jehovah's witnesses"
+    "cardName": "Jehovah's witnesses",
+    "rating": "G"
   },
   {
     "id": 41,
-    "cardName": "Florida Man"
+    "cardName": "Florida Man",
+    "rating": "G"
   },
   {
     "id": 42,
-    "cardName": "Ronald McDonald"
+    "cardName": "Ronald McDonald",
+    "rating": "G"
   },
   {
     "id": 43,
-    "cardName": "Nickelback"
+    "cardName": "Nickelback",
+    "rating": "G"
   },
   {
     "id": 44,
-    "cardName": "Pubic hair"
+    "cardName": "Pubic hair",
+    "rating": "R"
   },
   {
     "id": 45,
-    "cardName": "A good old handjob"
+    "cardName": "A good old handjob",
+    "rating": "R"
   },
   {
     "id": 46,
-    "cardName": "Pooping your pants"
+    "cardName": "Pooping your pants",
+    "rating": "G"
   },
   {
     "id": 47,
-    "cardName": "Internet porn"
+    "cardName": "Internet porn",
+    "rating": "R"
   },
   {
     "id": 48,
-    "cardName": "Garbage trucks"
+    "cardName": "Garbage trucks",
+    "rating": "G"
   },
   {
     "id": 49,
-    "cardName": "Sleeping bags"
+    "cardName": "Sleeping bags",
+    "rating": "G"
   },
   {
     "id": 50,
-    "cardName": "Facebook"
+    "cardName": "Facebook",
+    "rating": "G"
   },
   {
     "id": 51,
-    "cardName": "Bitcoin"
+    "cardName": "Bitcoin",
+    "rating": "G"
   },
   {
     "id": 52,
-    "cardName": "Habenero peppers"
+    "cardName": "Habenero peppers",
+    "rating": "G"
   },
   {
     "id": 53,
-    "cardName": "Teddy bears"
+    "cardName": "Teddy bears",
+    "rating": "G"
   },
   {
     "id": 54,
-    "cardName": "Weed gummies"
+    "cardName": "Weed gummies",
+    "rating": "G"
   },
   {
     "id": 55,
-    "cardName": "Pimp cane"
+    "cardName": "Pimp canes",
+    "rating": "G"
   },
   {
     "id": 56,
-    "cardName": "Bolo tie"
+    "cardName": "Bolo ties",
+    "rating": "G"
   },
   {
     "id": 57,
-    "cardName": "Assless chaps"
+    "cardName": "Assless chaps",
+    "rating": "R"
   },
   {
     "id": 58,
-    "cardName": "A dirty diaper"
+    "cardName": "A dirty diaper",
+    "rating": "G"
   },
   {
     "id": 59,
-    "cardName": "Jean shorts"
+    "cardName": "Jean shorts",
+    "rating": "G"
   },
   {
     "id": 60,
-    "cardName": "Fingernails"
+    "cardName": "Fingernails",
+    "rating": "G"
   },
   {
     "id": 61,
-    "cardName": "Wal Mart"
+    "cardName": "Wal Mart",
+    "rating": "G"
   },
   {
     "id": 62,
-    "cardName": "Pepper spray"
+    "cardName": "Pepper spray",
+    "rating": "G"
   },
   {
     "id": 63,
-    "cardName": "Dynamite"
+    "cardName": "Dynamite",
+    "rating": "G"
   },
   {
     "id": 64,
-    "cardName": "Pikachu"
+    "cardName": "Pikachu",
+    "rating": "G"
   },
   {
     "id": 65,
-    "cardName": "Bad gas"
+    "cardName": "Bad gas",
+    "rating": "G"
   },
   {
     "id": 66,
-    "cardName": "A bleached asshole"
+    "cardName": "A bleached asshole",
+    "rating": "R"
   },
   {
     "id": 67,
-    "cardName": "Bohemian Rhapsody"
+    "cardName": "Bohemian Rhapsody",
+    "rating": "G"
   },
   {
     "id": 68,
-    "cardName": "Parking lots"
+    "cardName": "Parking lots",
+    "rating": "G"
   },
   {
     "id": 69,
-    "cardName": "A sketchy white van"
+    "cardName": "A sketchy white van",
+    "rating": "G"
   },
   {
     "id": 70,
-    "cardName": "Bugs Bunny"
+    "cardName": "Bugs Bunny",
+    "rating": "G"
   },
   {
     "id": 71,
-    "cardName": "Sex Ed Class"
+    "cardName": "Sex Ed Class",
+    "rating": "G"
   },
   {
     "id": 72,
-    "cardName": "The Kardashian Sisters"
+    "cardName": "The Kardashian Sisters",
+    "rating": "G"
   },
   {
     "id": 73,
-    "cardName": "Kanye's ego"
+    "cardName": "Kanye's ego",
+    "rating": "G"
   },
   {
     "id": 74,
-    "cardName": "When you get so stoned you might die"
+    "cardName": "When you get so stoned you might die",
+    "rating": "G"
   },
   {
     "id": 75,
-    "cardName": "A cum rag"
+    "cardName": "A cum rag",
+    "rating": "R"
   },
   {
     "id": 76,
-    "cardName": "Warm apple pie"
+    "cardName": "Warm apple pie",
+    "rating": "G"
   },
   {
     "id": 77,
-    "cardName": "Forrest Gump"
+    "cardName": "Forrest Gump",
+    "rating": "G"
   },
   {
     "id": 78,
-    "cardName": "My ex"
+    "cardName": "My ex",
+    "rating": "G"
   },
   {
     "id": 79,
-    "cardName": "Your mom"
+    "cardName": "Your mom",
+    "rating": "G"
   },
   {
     "id": 80,
-    "cardName": "A hot daddy"
+    "cardName": "A hot daddy",
+    "rating": "G"
   },
   {
     "id": 81,
-    "cardName": "The Great Gatsby"
+    "cardName": "The Great Gatsby",
+    "rating": "G"
   },
   {
     "id": 82,
-    "cardName": "Normandy on D-Day"
+    "cardName": "Normandy on D-Day",
+    "rating": "G"
   },
   {
     "id": 83,
-    "cardName": "Swine Flu"
+    "cardName": "Swine Flu",
+    "rating": "G"
   },
   {
     "id": 84,
-    "cardName": "Undercooked meat"
+    "cardName": "Undercooked meat",
+    "rating": "G"
   },
   {
     "id": 85,
-    "cardName": "Freestyle rappers"
+    "cardName": "Freestyle rappers",
+    "rating": "G"
   },
   {
     "id": 86,
-    "cardName": "YouTube stars"
+    "cardName": "YouTube stars",
+    "rating": "G"
   },
   {
     "id": 87,
-    "cardName": "Nude beaches"
+    "cardName": "Nude beaches",
+    "rating": "G"
   },
   {
     "id": 88,
-    "cardName": "Pinocchio"
+    "cardName": "Pinocchio",
+    "rating": "G"
   },
   {
     "id": 89,
-    "cardName": "Morning wood"
+    "cardName": "Morning wood",
+    "rating": "R"
   },
   {
     "id": 90,
-    "cardName": "Pants tent"
+    "cardName": "Pants tent",
+    "rating": "R"
   },
   {
     "id": 91,
-    "cardName": "Botox"
+    "cardName": "Botox",
+    "rating": "G"
   },
   {
     "id": 92,
-    "cardName": "Used cars"
+    "cardName": "Used cars",
+    "rating": "G"
   },
   {
     "id": 93,
-    "cardName": "Drug dealers"
+    "cardName": "Drug dealers",
+    "rating": "G"
   },
   {
     "id": 94,
-    "cardName": "Twinkies"
+    "cardName": "Twinkies",
+    "rating": "G"
   },
   {
     "id": 95,
-    "cardName": "The G Spot"
+    "cardName": "The G Spot",
+    "rating": "G"
   },
   {
     "id": 96,
-    "cardName": "Lindsay Lohan"
+    "cardName": "Lindsay Lohan",
+    "rating": "G"
   },
   {
     "id": 97,
-    "cardName": "Dive bars"
+    "cardName": "Dive bars",
+    "rating": "G"
   },
   {
     "id": 98,
-    "cardName": "Cargo pants"
+    "cardName": "Cargo pants",
+    "rating": "G"
   },
   {
     "id": 99,
-    "cardName": "Polygamy"
+    "cardName": "Polygamy",
+    "rating": "G"
   },
   {
     "id": 100,
-    "cardName": "The early bird special"
+    "cardName": "The early bird special",
+    "rating": "G"
   },
   {
     "id": 101,
-    "cardName": "Wakanda"
+    "cardName": "Wakanda",
+    "rating": "G"
   },
   {
     "id": 102,
-    "cardName": "Morgan Freeman's voice"
+    "cardName": "Morgan Freeman's voice",
+    "rating": "G"
   },
   {
     "id": 103,
-    "cardName": "Monica Lewinksy"
+    "cardName": "Monica Lewinksy",
+    "rating": "G"
   },
   {
     "id": 104,
-    "cardName": "The platypus"
+    "cardName": "The platypus",
+    "rating": "G"
   },
   {
     "id": 105,
-    "cardName": "Foot long hot dogs"
+    "cardName": "Foot long hot dogs",
+    "rating": "G"
   },
   {
     "id": 106,
-    "cardName": "Edible panties"
+    "cardName": "Edible panties",
+    "rating": "G"
   },
   {
     "id": 107,
-    "cardName": "Sea World"
+    "cardName": "Sea World",
+    "rating": "G"
   },
   {
     "id": 108,
-    "cardName": "The Loch Ness Monster"
+    "cardName": "The Loch Ness Monster",
+    "rating": "G"
   },
   {
     "id": 109,
-    "cardName": "Ruth Bader Ginsburg"
+    "cardName": "Ruth Bader Ginsburg",
+    "rating": "G"
   },
   {
     "id": 110,
-    "cardName": "Riker's Island"
+    "cardName": "Riker's Island",
+    "rating": "G"
   },
   {
     "id": 111,
-    "cardName": "Clowns"
+    "cardName": "Clowns",
+    "rating": "G"
   },
   {
     "id": 112,
-    "cardName": "Helen Keller"
+    "cardName": "Helen Keller",
+    "rating": "G"
   },
   {
     "id": 113,
-    "cardName": "Hippie lettuce"
+    "cardName": "Hippie lettuce",
+    "rating": "G"
   },
   {
     "id": 114,
-    "cardName": "Woodstock 69"
+    "cardName": "Woodstock 69",
+    "rating": "G"
   },
   {
     "id": 115,
-    "cardName": "Red headed step child"
+    "cardName": "Red headed step child",
+    "rating": "G"
   },
   {
     "id": 116,
-    "cardName": "Fox News"
+    "cardName": "Fox News",
+    "rating": "G"
   },
   {
     "id": 117,
-    "cardName": "Magic mushrooms"
+    "cardName": "Magic mushrooms",
+    "rating": "G"
   },
   {
     "id": 118,
-    "cardName": "Steven Avery"
+    "cardName": "Steven Avery",
+    "rating": "G"
   },
   {
     "id": 119,
-    "cardName": "Braces"
+    "cardName": "Braces",
+    "rating": "G"
   },
   {
     "id": 120,
-    "cardName": "A bar or bat mitzvah"
+    "cardName": "A bar or bat mitzvah",
+    "rating": "G"
   },
   {
     "id": 121,
-    "cardName": "Dad bod"
+    "cardName": "Dad bod",
+    "rating": "G"
   },
   {
     "id": 122,
-    "cardName": "Marshmallows"
+    "cardName": "Marshmallows",
+    "rating": "G"
   },
   {
     "id": 123,
-    "cardName": "Bag of dog poo on fire"
+    "cardName": "Bag of dog poo on fire",
+    "rating": "G"
   },
   {
     "id": 124,
-    "cardName": "Sun roofs"
+    "cardName": "Sun roofs",
+    "rating": "G"
   },
   {
     "id": 125,
-    "cardName": "Lord of the Rings"
+    "cardName": "Lord of the Rings",
+    "rating": "G"
   },
   {
     "id": 126,
-    "cardName": "An ear of corn"
+    "cardName": "An ear of corn",
+    "rating": "G"
   },
   {
     "id": 127,
-    "cardName": "The Jersey Shore"
+    "cardName": "The Jersey Shore",
+    "rating": "G"
   },
   {
     "id": 128,
-    "cardName": "Burning Man"
+    "cardName": "Burning Man",
+    "rating": "G"
   },
   {
     "id": 129,
-    "cardName": "Plastic surgery"
+    "cardName": "Plastic surgery",
+    "rating": "G"
   },
   {
     "id": 130,
-    "cardName": "90 Day Fiancé"
+    "cardName": "90 Day Fiancé",
+    "rating": "G"
   },
   {
     "id": 131,
-    "cardName": "Property Brothers"
+    "cardName": "Property Brothers",
+    "rating": "G"
   },
   {
     "id": 132,
-    "cardName": "A Spike Lee Joint"
+    "cardName": "A Spike Lee Joint",
+    "rating": "G"
   },
   {
     "id": 133,
-    "cardName": "Hot Topic"
+    "cardName": "Hot Topic",
+    "rating": "G"
   },
   {
     "id": 134,
-    "cardName": "Mohawks"
+    "cardName": "Mohawks",
+    "rating": "G"
   },
   {
     "id": 135,
-    "cardName": "Pierced nipples"
+    "cardName": "Pierced nipples",
+    "rating": "G"
   },
   {
     "id": 136,
-    "cardName": "Oat milk"
+    "cardName": "Oat milk",
+    "rating": "G"
   },
   {
     "id": 137,
-    "cardName": "Vegans"
+    "cardName": "Vegans",
+    "rating": "G"
   },
   {
     "id": 138,
-    "cardName": "Hotel slippers"
+    "cardName": "Hotel slippers",
+    "rating": "G"
   },
   {
     "id": 139,
-    "cardName": "Watergate"
+    "cardName": "Watergate",
+    "rating": "G"
   },
   {
     "id": 140,
-    "cardName": "Y2K"
+    "cardName": "Y2K",
+    "rating": "G"
   },
   {
     "id": 141,
-    "cardName": "Flavor Flav"
+    "cardName": "Flavor Flav",
+    "rating": "G"
   },
   {
     "id": 142,
-    "cardName": "The beat drop"
+    "cardName": "The beat drop",
+    "rating": "G"
   },
   {
     "id": 143,
-    "cardName": "Linedancing"
+    "cardName": "Linedancing",
+    "rating": "G"
   },
   {
     "id": 144,
-    "cardName": "Airplane bathrooms"
+    "cardName": "Airplane bathrooms",
+    "rating": "G"
   },
   {
     "id": 145,
-    "cardName": "You're not my real dad"
+    "cardName": "You're not my real dad",
+    "rating": "G"
   },
   {
     "id": 146,
-    "cardName": "Mrs. Doubtfire"
+    "cardName": "Mrs. Doubtfire",
+    "rating": "G"
   },
   {
     "id": 147,
-    "cardName": "Tamagotchis"
+    "cardName": "Tamagotchis",
+    "rating": "G"
   },
   {
     "id": 148,
-    "cardName": "Michelle Obama"
+    "cardName": "Michelle Obama",
+    "rating": "G"
   },
   {
     "id": 149,
-    "cardName": "The middle seat on a plane"
+    "cardName": "The middle seat on a plane",
+    "rating": "G"
   },
   {
     "id": 150,
-    "cardName": "Baby Yoda"
+    "cardName": "Baby Yoda",
+    "rating": "G"
   },
   {
     "id": 151,
-    "cardName": "The Yankees"
+    "cardName": "The Yankees",
+    "rating": "G"
   },
   {
     "id": 152,
-    "cardName": "Tom Brady"
+    "cardName": "Tom Brady",
+    "rating": "G"
   },
   {
     "id": 153,
-    "cardName": "Miley Cyrus"
+    "cardName": "Miley Cyrus",
+    "rating": "G"
   },
   {
     "id": 154,
-    "cardName": "Teletubbies"
+    "cardName": "Teletubbies",
+    "rating": "G"
   },
   {
     "id": 155,
-    "cardName": "Al Pacino"
+    "cardName": "Al Pacino",
+    "rating": "G"
   },
   {
     "id": 156,
-    "cardName": "Olaf"
+    "cardName": "Olaf",
+    "rating": "G"
   },
   {
     "id": 157,
-    "cardName": "Puff the Magic Dragon"
+    "cardName": "Puff the Magic Dragon",
+    "rating": "G"
   },
   {
     "id": 158,
-    "cardName": "Pirate booty"
+    "cardName": "Pirate booty",
+    "rating": "G"
   },
   {
     "id": 159,
-    "cardName": "Android phones"
+    "cardName": "Android phones",
+    "rating": "G"
   },
   {
     "id": 160,
-    "cardName": "Pillow talk"
+    "cardName": "Pillow talk",
+    "rating": "G"
   },
   {
     "id": 161,
-    "cardName": "Toilet paper shortages"
+    "cardName": "Toilet paper shortages",
+    "rating": "G"
   },
   {
     "id": 162,
-    "cardName": "Spider-Man"
+    "cardName": "Spider-Man",
+    "rating": "G"
   },
   {
     "id": 163,
-    "cardName": "SATs"
+    "cardName": "SATs",
+    "rating": "G"
   },
   {
     "id": 164,
-    "cardName": "Gushers fruit snacks"
+    "cardName": "Gushers fruit snacks",
+    "rating": "G"
   },
   {
     "id": 165,
-    "cardName": "Neutering"
+    "cardName": "Neutering",
+    "rating": "G"
   },
   {
     "id": 166,
-    "cardName": "Family time"
+    "cardName": "Family time",
+    "rating": "G"
   },
   {
     "id": 167,
-    "cardName": "Weiner schnitzel"
+    "cardName": "Weiner schnitzel",
+    "rating": "G"
   },
   {
     "id": 168,
-    "cardName": "Where's Waldo?"
+    "cardName": "Where's Waldo?",
+    "rating": "G"
   },
   {
     "id": 169,
-    "cardName": "Hulk Hogan"
+    "cardName": "Hulk Hogan",
+    "rating": "G"
   },
   {
     "id": 170,
-    "cardName": "Baskin Robbins"
+    "cardName": "Baskin Robbins",
+    "rating": "G"
   },
   {
     "id": 171,
-    "cardName": "Puzzle pieces"
+    "cardName": "Puzzle pieces",
+    "rating": "G"
   },
   {
     "id": 172,
-    "cardName": "Alcoholic beverages"
+    "cardName": "Alcoholic beverages",
+    "rating": "G"
   },
   {
     "id": 173,
-    "cardName": "Travel"
+    "cardName": "Travel",
+    "rating": "G"
   },
   {
     "id": 174,
-    "cardName": "Road trips"
+    "cardName": "Road trips",
+    "rating": "G"
   },
   {
     "id": 175,
-    "cardName": "The 90s"
+    "cardName": "The 90s",
+    "rating": "G"
   },
   {
     "id": 176,
-    "cardName": "New Year's Eve"
+    "cardName": "New Year's Eve",
+    "rating": "G"
   },
   {
     "id": 177,
-    "cardName": "World Wars"
+    "cardName": "World Wars",
+    "rating": "G"
   },
   {
     "id": 178,
-    "cardName": "Nightmares"
+    "cardName": "Nightmares",
+    "rating": "G"
   },
   {
     "id": 179,
-    "cardName": "Netflix and Chill"
+    "cardName": "Netflix and Chill",
+    "rating": "G"
   },
   {
     "id": 180,
-    "cardName": "Air hockey"
+    "cardName": "Air hockey",
+    "rating": "G"
   },
   {
     "id": 181,
-    "cardName": "The friend zone"
+    "cardName": "The friend zone",
+    "rating": "G"
   },
   {
     "id": 182,
-    "cardName": "Porta potties"
+    "cardName": "Porta potties",
+    "rating": "G"
   },
   {
     "id": 183,
-    "cardName": "Blackmail"
+    "cardName": "Blackmail",
+    "rating": "G"
   },
   {
     "id": 184,
-    "cardName": "The Beatles"
+    "cardName": "The Beatles",
+    "rating": "G"
   },
   {
     "id": 185,
-    "cardName": "The Cat in the Hat"
+    "cardName": "The Cat in the Hat",
+    "rating": "G"
   },
   {
     "id": 186,
-    "cardName": "Baloney"
+    "cardName": "Baloney",
+    "rating": "G"
   },
   {
     "id": 187,
-    "cardName": "Jack O Lanterns"
+    "cardName": "Jack O Lanterns",
+    "rating": "G"
   },
   {
     "id": 188,
-    "cardName": "Las Vegas"
+    "cardName": "Las Vegas",
+    "rating": "G"
   },
   {
     "id": 189,
-    "cardName": "North Dakota"
+    "cardName": "North Dakota",
+    "rating": "G"
   },
   {
     "id": 190,
-    "cardName": "Scooby Doo"
+    "cardName": "Scooby Doo",
+    "rating": "G"
   },
   {
     "id": 191,
-    "cardName": "Nyquil"
+    "cardName": "Nyquil",
+    "rating": "G"
   },
   {
     "id": 192,
-    "cardName": "Game Night"
+    "cardName": "Game Night",
+    "rating": "G"
   },
   {
     "id": 193,
-    "cardName": "The Titanic"
+    "cardName": "The Titanic",
+    "rating": "G"
   },
   {
     "id": 194,
-    "cardName": "The Sound of Music"
+    "cardName": "The Sound of Music",
+    "rating": "G"
   },
   {
     "id": 195,
-    "cardName": "Corned Beef"
+    "cardName": "Corned Beef",
+    "rating": "G"
   },
   {
     "id": 196,
-    "cardName": "TP-ing houses"
+    "cardName": "TP-ing houses",
+    "rating": "G"
   },
   {
     "id": 197,
-    "cardName": "The Godfather"
+    "cardName": "The Godfather",
+    "rating": "G"
   },
   {
     "id": 198,
-    "cardName": "Italian subs"
+    "cardName": "Italian subs",
+    "rating": "G"
   },
   {
     "id": 199,
-    "cardName": "Hangovers"
+    "cardName": "Hangovers",
+    "rating": "G"
   },
   {
     "id": 200,
-    "cardName": "Brunch"
+    "cardName": "Brunch",
+    "rating": "G"
   },
   {
     "id": 201,
-    "cardName": "Caramel lattes"
+    "cardName": "Caramel lattes",
+    "rating": "G"
   },
   {
     "id": 202,
-    "cardName": "Elf on the Shelf"
+    "cardName": "Elf on the Shelf",
+    "rating": "G"
   },
   {
     "id": 203,
-    "cardName": "Dog urine"
+    "cardName": "Dog urine",
+    "rating": "G"
   },
   {
     "id": 204,
-    "cardName": "Kitty litter"
+    "cardName": "Kitty litter",
+    "rating": "G"
   },
   {
     "id": 205,
-    "cardName": "Taxes"
+    "cardName": "Taxes",
+    "rating": "G"
   },
   {
     "id": 206,
-    "cardName": "Cheese Whiz"
+    "cardName": "Cheese Whiz",
+    "rating": "G"
   },
   {
     "id": 207,
-    "cardName": "Locker rooms"
+    "cardName": "Locker rooms",
+    "rating": "G"
   },
   {
     "id": 208,
-    "cardName": "Will Smith"
+    "cardName": "Will Smith",
+    "rating": "G"
   },
   {
     "id": 209,
-    "cardName": "Darth Vader"
+    "cardName": "Darth Vader",
+    "rating": "G"
   },
   {
     "id": 210,
-    "cardName": "S & M"
+    "cardName": "S & M",
+    "rating": "G"
   },
   {
     "id": 211,
-    "cardName": "Implants"
+    "cardName": "Implants",
+    "rating": "G"
   },
   {
     "id": 212,
-    "cardName": "Blackjack"
+    "cardName": "Blackjack",
+    "rating": "G"
   }
 ]

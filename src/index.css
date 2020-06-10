@@ -52,6 +52,12 @@ code {
   font-size: 0.9em;
 }
 
+/* Colors */
+
+.yellow {
+  color: #fed92a;
+}
+
 /* Links */
 .text-link {
   color: black;
@@ -155,18 +161,6 @@ code {
 /* Seconds Section */
 .seconds-container {
   height: 1em;
-}
-
-/* Timer */
-.timer-image {
-  height: 3em;
-  width: auto;
-  margin-bottom: 0.5em;
-}
-
-.timer-container {
-  display: flex;
-  flex-direction: row;
 }
 
 /* Score Section */

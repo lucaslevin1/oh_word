@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Grid } from 'semantic-ui-react';
 import Header from './Header';
-import GameOptions from './GameOptions';
+import GameInfo from './GameInfo';
 import GameBoard from './GameBoard';
 import DeveloperModal from './DeveloperModal';
 import Instructions from './Instructions';
@@ -25,7 +25,7 @@ const Game = () => {
             showInstructions={showInstructions}
             setShowInstructions={setShowInstructions}
           />
-          <GameOptions />
+          <GameInfo />
           <GameBoard />
           <DeveloperModal />
         </div>

@@ -86,6 +86,10 @@ code {
 }
 
 /* Spacing */
+.space-top {
+  margin-top: 1em;
+}
+
 .space-top-large {
   margin-top: 2em;
 }
@@ -152,9 +156,19 @@ code {
   padding: 2em 10em;
 }
 
+.main-content-container-mobile {
+  padding: 2em;
+  text-align: center;
+}
+
 /* Site Header */
 .header-image {
   height: 100px;
+  width: auto;
+}
+
+.header-image-mobile {
+  height: 120px;
   width: auto;
 }
 
@@ -270,6 +284,11 @@ code {
 }
 
 /* Misc */
+.desktop-computer-image {
+  width: 100%;
+  max-width: 400px !important;
+}
+
 .word-wrap {
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -285,9 +304,9 @@ code {
   padding: 0.2em 0 !important;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .game-card--spymaster-view {
-    height: 8em;
+    height: 9em;
   }
 
   .spy-master-container {
@@ -295,12 +314,22 @@ code {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .game-card--spymaster-view {
+    height: 7em;
+  }
+
+  .spy-master-container {
+    padding: 2em 2em;
+  }
+}
+
+@media (max-width: 480px) {
   .game-card--spymaster-view {
     height: 4em;
   }
 
   .spy-master-container {
-    padding: 2em;
+    padding: 1.5em;
   }
 }

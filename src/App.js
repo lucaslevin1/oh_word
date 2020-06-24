@@ -1,5 +1,5 @@
 import React from 'react';
-import Game from './components/Game';
+import DeviceHandler from './components/DeviceHandler';
 import SpyMaster from './components/SpyMaster';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -11,7 +11,7 @@ function App() {
           path='/spymaster/:cardUrlExtension/:gameSessionId'
           component={SpyMaster}
         />
-        <Route path='/' component={Game} />
+        <Route path='/' component={DeviceHandler} />
       </Switch>
     </Router>
   );
